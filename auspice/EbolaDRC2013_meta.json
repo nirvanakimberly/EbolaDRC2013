@@ -1,0 +1,152 @@
+{
+  "annotations": {
+    "ZEBOVgp1": {
+      "end": 2689,
+      "start": 469,
+      "strand": 1
+    },
+    "ZEBOVgp2": {
+      "end": 4151,
+      "start": 3128,
+      "strand": 1
+    },
+    "ZEBOVgp3": {
+      "end": 5459,
+      "start": 4478,
+      "strand": 1
+    },
+    "ZEBOVgp4": {
+      "end": 6933,
+      "start": 6038,
+      "strand": 1
+    },
+    "ZEBOVgp5": {
+      "end": 9375,
+      "start": 8508,
+      "strand": 1
+    },
+    "ZEBOVgp6": {
+      "end": 11100,
+      "start": 10344,
+      "strand": 1
+    },
+    "ZEBOVgp7": {
+      "end": 18219,
+      "start": 11580,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 18959,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "country": {
+      "color_map": [
+        [
+          "Democratic Republic of the Congo",
+          "#FF5733"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "Country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "state": {
+      "color_map": [
+        [
+          "Boende",
+          "#FFFD33"
+        ],
+        [
+          "Lomela",
+          "#4AFF33"
+        ],
+        [
+          "Ituri",
+          "#33FFFC"
+        ],
+        [
+          "Tumba",
+          "#3A33FF"
+        ],
+        [
+          "Kikwit",
+          "#9433FF"
+        ],
+        [
+          "DRC",
+          "#FF3333"
+        ]
+      ],
+      "key": "state",
+      "legendTitle": "State",
+      "menuItem": "state",
+      "type": "discrete"
+    }
+  },
+  "defaults": {
+    "colorBy": "state",
+    "geoResolution": "state",
+    "mapTriplicate": false
+  },
+  "filters": [
+    "country",
+    "state"
+  ],
+  "geo": {
+    "country": {
+      "Democratic Republic of the Congo": {
+        "latitude": -4.0383,
+        "longitude": 21.7587
+      }
+    },
+    "state": {
+      "Boende": {
+        "latitude": -0.2843,
+        "longitude": 20.8851
+      },
+      "DRC": {
+        "latitude": -4.0383,
+        "longitude": 21.7587
+      },
+      "Ituri": {
+        "latitude": 1.5958,
+        "longitude": 29.4179
+      },
+      "Kikwit": {
+        "latitude": -5.50487,
+        "longitude": 18.7839
+      },
+      "Lomela": {
+        "latitude": -2.2952,
+        "longitude": 23.271
+      },
+      "Tumba": {
+        "latitude": -0.6803,
+        "longitude": 18.0006
+      }
+    }
+  },
+  "maintainer": [
+    "Nirvana Dominguez Singh",
+    "github.com"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Genomic Epidemiology of Ebola in the Democratic Republic of the Congo since 2013",
+  "updated": "03 Mar 2020",
+  "virus_count": 46
+}
